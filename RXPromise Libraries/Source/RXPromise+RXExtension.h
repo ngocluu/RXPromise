@@ -252,7 +252,7 @@ typedef RXPromise* (^rxp_nullary_task)();
  name of the calling function or method.
 
  */
-- (void) makeBackgroundTaskWithName:(NSString*)taskName;
+- (void) makeBackgroundTaskWithName:(NSString*)taskName NS_EXTENSION_UNAVAILABLE_IOS("");
 
     
 #endif
